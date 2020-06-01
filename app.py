@@ -36,4 +36,5 @@ def get_tour(id):
     output =render_template('tour.html', tour = tour, departures=departures, price=price, title=title)
     return output
 
-app.run()
+if __name__ == '__main__':
+    app.run()
